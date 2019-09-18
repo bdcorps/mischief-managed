@@ -1,4 +1,4 @@
-# Serve static website using Node.js and Express web server
+# Mischief Managed
 
 ## Dependencies
 
@@ -35,5 +35,3 @@ npm start
 ```
 http://localhost:3000
 ```
-# serve-static-website-nodejs
-# mischief-managed
