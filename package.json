@@ -1,0 +1,13 @@
+{
+  "name": "mischief-managed",
+  "version": "1.0.0",
+  "description": "Mischief Managed",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "bdcorps",
+  "license": "MIT",
+  "dependencies": {
+    "express": "4.13.3"
+  }
+}

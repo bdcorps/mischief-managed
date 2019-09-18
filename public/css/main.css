@@ -1,0 +1,13 @@
+.row {
+    background: #f8f9fa;
+    margin-top: 20px;
+}
+
+.selected {
+    border: solid 1px #6c757d;
+    padding: 10px;
+}
+
+img {
+    width: 100%;
+}

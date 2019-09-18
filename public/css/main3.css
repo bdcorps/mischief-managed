@@ -1,0 +1,169 @@
+:root {
+    --main-bg-color: #2d07e5;
+}
+
+
+/* main2.css */
+html,
+body {
+    height: 100%;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+.flex-container {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.row {
+    width: auto;
+}
+
+.flex-item {
+    padding: 5px;
+    margin: 10px;
+    line-height: 20px;
+    color: #d6d6d6;
+    font-size: 2em;
+    line-height: 1em;
+    text-align: center;
+}
+
+.visible-text {
+    color: var(--main-bg-color);
+    font-weight: 500;
+}
+
+.hidden-text {
+    color: #e0e0e0;
+    font-weight: 400;
+}
+
+.action-text {
+    color: var(--main-bg-color);
+}
+
+/* main2.css */
+
+
+
+* {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.logo {
+    fill: var(--main-bg-color);
+    width: 50px;
+    height: 50px;
+}
+
+.bg {
+    max-width: 1200px;
+    margin: 0 auto;
+    font-family: "IBM Plex Sans", sans-serif;
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+    outline: none;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.flex-container>li {
+    margin: 20px 20px 20px 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mischief-card .image {
+    margin: 30px 30px 15px 0;
+    border-radius: 5px;
+    width: 200px;
+    height: 200px;
+}
+
+.mischief-card .title {
+    margin: 2px 2px 2px 0;
+}
+
+.mischief-card .submitted-by {
+    color: #949494;
+}
+
+.action-text {
+    color: var(--main-bg-color);
+}
+
+#mischiefs {
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+section {
+    padding-top: 10%;
+}
+
+.searchContainer {
+    display: inline-flex;
+    min-width: 40%;
+    max-width: 500px;
+    flex: 1 1 300px;
+    position: relative;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.searchIcon {
+    padding: 0.5rem;
+}
+
+.searchBox {
+    border: 0;
+    padding: 0.5rem 0.5rem 0.5rem 0;
+    flex: 1;
+}
+
+.searchButton {
+    background: var(--main-bg-color);
+    border: 0;
+    color: white;
+    font-size: 17px;
+    padding: 0.5rem 1.5rem 0.5rem 1.5rem;
+    border-radius: 0;
+}
+
+.action-text,
+.clickable {
+    cursor: pointer !important;
+    pointer-events: auto;
+}
+
+.selected {
+    padding: 2px;
+    border: 2px solid var(--main-bg-color);
+}
