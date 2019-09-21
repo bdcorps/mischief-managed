@@ -79,6 +79,15 @@ body {
     box-sizing: border-box;
 }
 
+.description {
+    margin: 30px 0;
+    line-height: 16px;
+}
+
+.purple-text {
+    color: var(--main-bg-color);
+}
+
 input:focus,
 textarea:focus,
 select:focus {

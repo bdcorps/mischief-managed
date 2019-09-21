@@ -2,6 +2,8 @@ $(document).ready(function() {
   elem = document.getElementById("excel_1");
   var randomColor = colors[Math.floor(Math.random() * colors.length)];
   document.body.style.setProperty("--main-bg-color", "#2d07e5");
+
+  hideAcknowledgement();
 });
 // const colors = ["2d07e5", "8d0247", "8d4102"];
 const colors = [
@@ -59,8 +61,21 @@ function closeFullscreen() {
   } else if (document.msExitFullscreen) {
     document.msExitFullscreen();
   }
+  showAcknowledgement();
+  // hideAcknowledgement();
+  setTimeout(hideAcknowledgement, 200);
 
   elem.className += " selected";
+}
+
+function showAcknowledgement() {
+  $(".app").hide();
+  $(".acknowledgement").show();
+}
+
+function hideAcknowledgement() {
+  $(".app").show();
+  $(".acknowledgement").hide();
 }
 
 function handleClick(e) {
