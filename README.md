@@ -1,11 +1,5 @@
-
-<h1 align="center">
-  <img src="https://raw.githubusercontent.com/bdcorps/mischief-managed/master/public/images/logo.png" alt="Mischief Managed Logo" />
-  </br>
-  <a href="https://mischief-managed.herokuapp.com/">
-    Mischief Managed
-  </a>
-</h1>
+![Mischief Managed](https://raw.githubusercontent.com/bdcorps/mischief-managed/master/public/images/logo.png)
+# Mischief Managed
 
 ## Description
 Mischief Managed is a web app that features various work activities as looped GIFs that when full screened make it look like you are working diligently.
