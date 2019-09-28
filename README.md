@@ -8,7 +8,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/bdcorps/mischief-managed">
-    <img src="https://raw.githubusercontent.com/bdcorps/mischief-managed/master/public/images/logo.png" alt="Logo" width="150" height="150">
+    <img src="public/showcase/logo.png" alt="Logo" width="100" height="100">
   </a>
 
   <h3 align="center">Mischief Managed</h3>
