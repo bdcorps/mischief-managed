@@ -8,6 +8,14 @@ $(window).on("keydown", function(e) {
   checkEntry();
 });
 
+document.addEventListener(
+  "touchmove",
+  function(e) {
+    checkEntry();
+  },
+  false
+);
+
 function checkEntry() {
   entryProgress++;
   redrawEntryPhrase();
