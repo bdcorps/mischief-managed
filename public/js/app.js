@@ -15,11 +15,11 @@ $(document).ready(function() {
   hideAcknowledgement();
 
   if (isMobile) {
-    $("html").css("background-color", "#2d07e5 !important");
+    $("#app-bg").css("background-color", "#2d07e5");
     $(".mobile-app").show();
     $(".app").hide();
   } else {
-    $("html").css("background-color", "#454545 !important");
+    $("#app-bg").css("background-color", "#ffffff");
     $(".mobile-app").hide();
     $(".app").show();
   }

@@ -4,14 +4,15 @@ $(document).ready(function() {
 
 var entryPhrase = "I solemnly swear that I am up to no good.";
 var entryProgress = 0;
-$(window).on("keydown", function(e) {
+$(window).on("keydown touchstart mousedown touchmove", function(e) {
   checkEntry();
 });
 
 document.addEventListener(
-  "touchmove",
+  "",
   function(e) {
-    checkEntry();
+     var touch = e.touches[0];
+     checkEntry();
   },
   false
 );
