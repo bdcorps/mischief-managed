@@ -129,3 +129,8 @@ function myFunction() {
 function removeAllSelected() {
   $(".mischief-card .image").removeClass("selected");
 }
+
+$('.newseon-plug').on('click', function(){
+      window.open("https://newseon.io");
+      console.log("asd")
+})
