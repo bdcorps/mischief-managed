@@ -173,12 +173,21 @@
     </div>
      <div class="footer" style="text-align:center;">
 
-<form action="/action_page.php" style="text-align:center;">
-    <input type="text" class="searchBox" style="border:1px solid black;" placeholder="Enter Email" name="email" required>
+<form action="/submit" style="text-align:center;" method="post">
+  <input
+  id="email"
+  class="searchBox"
+  type="search"
+  name="email"
+  onkeyup="myFunction()"
+  placeholder="Enter your email"
+/>
+
 </br>
-      <button type="submit" class="signupbtn searchButton" style="margin:3rem;">Keep me informed</button>
+      <button type="submit" class="signupbtn searchButton" style="margin:3rem;padding:1rem 2rem 1rem 2rem;">Keep me informed</button>
 </form>
       </div>
 
+      <a  class="sticky-embed" href="https://www.producthunt.com/posts/mischief-managed?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-mischief-managed" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=172826&theme=dark" alt="Mischief Managed - Goof off @ work with looped GIFs | Product Hunt Embed" style="width: 250px; height: 54px;" width="250px" height="54px" /></a>
   </body>
 </html>
